@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Environment and package files
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Data files (optional, if too large or private)
+*.csv
+*.xlsx
+
+# Model files (optional, if you want to avoid versioning large .pkl files)
+*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit cache
+.streamlit/
+
+# Python virtual environment logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+dist/
+build/
+*.spec
