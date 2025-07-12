@@ -3,8 +3,8 @@ import numpy as np
 import joblib
 
 # Load trained model and scaler
-model = joblib.load("diabetes_model.pkl")
-scaler = joblib.load("scaler.pkl")
+model = joblib.load("../Models/diabetes_model.pkl")
+scaler = joblib.load("../Models/scaler.pkl")
 
 # Streamlit page config
 st.set_page_config(page_title="Diabetes Predictor", layout="centered")
